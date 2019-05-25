@@ -1,0 +1,64 @@
+body{
+  background: black;
+}
+
+#home-bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+  opacity: 0.3;
+}
+.booking{
+  border:1px solid #f4f4f4;
+  height:600px;
+  width: 50%;
+  position: absolute;
+  top: 60px;
+  left:350px;
+}
+.book{
+  width: 100%;
+  position: absolute;
+  display: block;
+  float: left;
+}
+.book input, .book select{
+  height: 30px;
+  width:250px;
+  margin: 8px;
+  align-items: center;
+  font-size: 20px;
+}
+.booking h2{
+  text-align: center;
+  color:yellow;
+  line-height: 40px;
+  text-decoration: underline;
+}
+p{
+  color:white;
+  font-size: 20px;
+}
+input{
+  line-height: 10px;
+}
+.buton{
+  color:black;
+  font-size: 20px;
+  background-color: yellow;
+  border-radius: 10%;
+  width:100px;
+  height: 40px;
+}
+.buton a{
+  text-decoration: none;
+  color: black;
+}
